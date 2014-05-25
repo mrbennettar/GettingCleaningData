@@ -29,3 +29,7 @@ To make the variable names just a little easier to read, I converted all the var
 ### Producing the final tidy data set
 
 In order to get averages of the means and standard deviations for each avtivity and subject combination, I melted and dcast the data frame using 'activity' and 'subject' as the ids.  The data frame titles 'tidycast' is the desired tidy data set that fufills the requirement of step 5.
+
+### Variable used
+
+The original data were gathered from a Samsung smartphone by the UCICenter for Machine Learning and Intelligent Systems.  THe variables include tri-axial singals representing physical observations of subjects performing 6 different activities. As noted above, the variables included in the final tidy data set are only means and standard deviations of the recorded parameters.  Including the subject and activity columns, the final data set has 180 observations (rows) and 81 variables (columns).  Rather than describe each variable here, I will point you to the features_info.txt file in the 'UCI HAR Dataset' folder that is included in made available once the original file is unzipped.
