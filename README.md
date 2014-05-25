@@ -4,4 +4,4 @@ In this repo, you will find an R script called 'run_analysis.R'. This script is 
 
 When run in R, the script will download a data set from the web and tidy it up.  The resulting tidy data set is a data frame called 'tidycast'.  This data frame reports the average values of many recorded physical parameters acquired during testing of multiple subjects doing six diferent types of activities.
 
-The file called 'CodeBook.md' provides rationale for the steps taken to tidy up the data set.  Included therein are explanations of specific portions of the 'run_analysis.R' code as well as variable descriptions.
+The file called 'CodeBook.md' provides rationale for the steps taken to tidy up the data set.  Included therein are explanations of specific portions of the 'run_analysis.R' code as well as generic variable descriptions.
